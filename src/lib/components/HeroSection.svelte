@@ -23,7 +23,7 @@
   </video>
 
   {#if visible}
-    <div class="relative z-10 text-center max-w-5xl mx-auto px-4">
+    <div class="relative z-[1] text-center max-w-5xl mx-auto px-4">
       <h2
         in:fly={{ y: 20, duration: 500, delay: 200 }}
         class="text-6xl md:text-8xl font-display font-bold text-white mb-6"

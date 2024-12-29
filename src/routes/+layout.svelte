@@ -13,7 +13,7 @@
 </script>
 
 <div class="min-h-screen bg-gray-900 transition-colors duration-300 font-sans">
-  <header class="fixed w-full z-10 bg-gray-800 shadow-md">
+  <header class="fixed w-full z-50 bg-gray-800 shadow-md">
     <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
       <a
         href="#home"
@@ -27,7 +27,7 @@
 
   <slot />
 
-  <footer class="bg-gray-800 text-white py-6">
+  <footer class="bg-gray-800 text-white py-6 relative z-10">
     <div class="container mx-auto px-6 text-center">
       <div class="flex justify-center space-x-8 mb-4">
         <a
