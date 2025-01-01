@@ -1,6 +1,6 @@
 <script lang="ts">
   import "../app.css";
-  import { Instagram } from "lucide-svelte";
+  import { Instagram, Youtube } from "lucide-svelte";
   import VimeoIcon from "$lib/components/VimeoIcon.svelte";
 
   function scrollToTop(event: MouseEvent) {
@@ -47,6 +47,15 @@
           aria-label="Instagram"
         >
           <Instagram size={24} />
+        </a>
+        <a
+          href="https://www.youtube.com/playlist?list=PLdEBNyKax1NbfUzBdEFmTuYTBoj84oI_e"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-gray-300 hover:text-white transition-colors duration-300"
+          aria-label="YouTube"
+        >
+          <Youtube size={24} />
         </a>
       </div>
       <p class="font-sans text-sm">

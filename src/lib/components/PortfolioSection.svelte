@@ -3,12 +3,30 @@
   import { fade, fly } from "svelte/transition";
 
   const videos = [
-    { id: "897183399", title: "Chrysa Tsaltampasi - Gia Sena" },
-    { id: "897183399", title: "Idra Kayne - Gia Sena" },
-    { id: "897183399", title: "Nikola Leivaditi - Music Video" },
-    { id: "897183399", title: "Village Cinemas Promo" },
-    { id: "897183399", title: "Kryolan Beauty Campaign" },
-    { id: "897183399", title: "+PSX Fashion Film" },
+    {
+      id: "Hs0cBIUQpVU",
+      title: "Chrysa Tsaltampasi - Gia Sena (Official Music Video)",
+    },
+    {
+      id: "Hs0cBIUQpVU",
+      title: "Idra Kayne - Gia Sena (Official Music Video)",
+    },
+    {
+      id: "Hs0cBIUQpVU",
+      title: "Nikola Leivaditi - Music Video",
+    },
+    {
+      id: "Hs0cBIUQpVU",
+      title: "Village Cinemas Promo",
+    },
+    {
+      id: "Hs0cBIUQpVU",
+      title: "Kryolan Beauty Campaign",
+    },
+    {
+      id: "Hs0cBIUQpVU",
+      title: "+PSX Fashion Film",
+    },
   ];
 
   let visible = false;
@@ -35,8 +53,8 @@
             <div class="aspect-w-16 aspect-h-9">
               <iframe
                 title={video.title}
-                src={`https://player.vimeo.com/video/${video.id}?background=1&autoplay=1&loop=1&byline=0&title=0`}
-                allow="autoplay; fullscreen; picture-in-picture"
+                src={`https://www.youtube.com/embed/${video.id}?autoplay=0&modestbranding=1&rel=0`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
                 class="w-full h-full"
               ></iframe>
@@ -51,12 +69,12 @@
       </div>
       <div class="text-center mt-12">
         <a
-          href="https://vimeo.com/itstonykris"
+          href="https://www.youtube.com/playlist?list=PLdEBNyKax1NbfUzBdEFmTuYTBoj84oI_e"
           target="_blank"
           rel="noopener noreferrer"
           class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-sans font-medium py-3 px-8 rounded-full transition duration-300"
         >
-          View Full Portfolio on Vimeo
+          View Full Collection on YouTube
         </a>
       </div>
     {/if}
